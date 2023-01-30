@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Model1__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Model1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Model1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>B</fullName>
+                <default>false</default>
+                <label>B</label>
+            </value>
+            <value>
+                <fullName>A</fullName>
+                <default>false</default>
+                <label>A</label>
+            </value>
+            <value>
+                <fullName>N</fullName>
+                <default>false</default>
+                <label>N</label>
+            </value>
+            <value>
+                <fullName>S</fullName>
+                <default>false</default>
+                <label>S</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Taurus</controllingFieldValue>
+            <controllingFieldValue>Accord</controllingFieldValue>
+            <controllingFieldValue>Model 3</controllingFieldValue>
+            <controllingFieldValue>Corolla</controllingFieldValue>
+            <controllingFieldValue>Camery</controllingFieldValue>
+            <valueName>A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rapter</controllingFieldValue>
+            <controllingFieldValue>Accord</controllingFieldValue>
+            <controllingFieldValue>Odyssey</controllingFieldValue>
+            <controllingFieldValue>Model S</controllingFieldValue>
+            <controllingFieldValue>Camery</controllingFieldValue>
+            <valueName>N</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rapter</controllingFieldValue>
+            <controllingFieldValue>Civic</controllingFieldValue>
+            <valueName>S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Civic</controllingFieldValue>
+            <controllingFieldValue>Odyssey</controllingFieldValue>
+            <controllingFieldValue>Corolla</controllingFieldValue>
+            <controllingFieldValue>Camery</controllingFieldValue>
+            <valueName>B</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

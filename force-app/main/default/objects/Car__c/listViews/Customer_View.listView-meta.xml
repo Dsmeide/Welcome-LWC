@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_View</fullName>
+    <columns>Make__c</columns>
+    <columns>Model1__c</columns>
+    <columns>Sub_Model1__c</columns>
+    <columns>Type__c</columns>
+    <columns>Mileage__c</columns>
+    <columns>Sale_Price__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Customer View</label>
+</ListView>

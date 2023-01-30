@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model1__c</fullName>
+    <externalId>false</externalId>
+    <label>Model1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Make__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Civic</fullName>
+                <default>false</default>
+                <label>Civic</label>
+            </value>
+            <value>
+                <fullName>Accord</fullName>
+                <default>false</default>
+                <label>Accord</label>
+            </value>
+            <value>
+                <fullName>Odyssey</fullName>
+                <default>false</default>
+                <label>Odyssey</label>
+            </value>
+            <value>
+                <fullName>Camery</fullName>
+                <default>false</default>
+                <label>Camery</label>
+            </value>
+            <value>
+                <fullName>Corrolla</fullName>
+                <default>false</default>
+                <label>Corrolla</label>
+            </value>
+            <value>
+                <fullName>Raptor</fullName>
+                <default>false</default>
+                <label>Raptor</label>
+            </value>
+            <value>
+                <fullName>Taurus</fullName>
+                <default>false</default>
+                <label>Taurus</label>
+            </value>
+            <value>
+                <fullName>Model 3</fullName>
+                <default>false</default>
+                <label>Model 3</label>
+            </value>
+            <value>
+                <fullName>Model s</fullName>
+                <default>false</default>
+                <label>Model s</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Ford</controllingFieldValue>
+            <valueName>Raptor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ford</controllingFieldValue>
+            <valueName>Taurus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Honda</controllingFieldValue>
+            <valueName>Civic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Honda</controllingFieldValue>
+            <valueName>Accord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Honda</controllingFieldValue>
+            <valueName>Odyssey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tesla</controllingFieldValue>
+            <valueName>Model 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tesla</controllingFieldValue>
+            <valueName>Model s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toyota</controllingFieldValue>
+            <valueName>Camery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toyota</controllingFieldValue>
+            <valueName>Corrolla</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

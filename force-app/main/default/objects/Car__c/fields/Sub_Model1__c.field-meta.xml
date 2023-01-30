@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Model1__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Model1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Model1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>B</fullName>
+                <default>false</default>
+                <label>B</label>
+            </value>
+            <value>
+                <fullName>A</fullName>
+                <default>false</default>
+                <label>A</label>
+            </value>
+            <value>
+                <fullName>N</fullName>
+                <default>false</default>
+                <label>N</label>
+            </value>
+            <value>
+                <fullName>S</fullName>
+                <default>false</default>
+                <label>S</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Civic</controllingFieldValue>
+            <valueName>S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accord</controllingFieldValue>
+            <controllingFieldValue>Corrolla</controllingFieldValue>
+            <controllingFieldValue>Model s</controllingFieldValue>
+            <valueName>N</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Odyssey</controllingFieldValue>
+            <controllingFieldValue>Raptor</controllingFieldValue>
+            <controllingFieldValue>Taurus</controllingFieldValue>
+            <controllingFieldValue>Model s</controllingFieldValue>
+            <valueName>A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camery</controllingFieldValue>
+            <controllingFieldValue>Model 3</controllingFieldValue>
+            <valueName>B</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
